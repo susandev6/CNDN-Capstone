@@ -1,11 +1,11 @@
 # Serverless Registry List App
 ## Capstone Project for Udacity Cloud developer
 
-This is a project for Udacity Cloud Developer Nanodegree. It is a serverless  registry list application which allows users to create their registry list.
+This is a project for Udacity Cloud Developer Nanodegree. It is a serverless  registry list application which allows users to create their registry list. I have re-used the project code of the serverless application of the cloud developer course.
 
 # Functionality of the application
 
-This application will allow creating/removing/updating/fetching registry items. Each item can optionally have an attachment image. Each user only has access to registry items that he/she has created.
+This application will allow creating/removing/updating/fetching registry items. Each item can optionally have an attachment image and a link to the item. Each user only has access to registry items that he/she has created.
 
 This application is built using Serverless Framework (https://serverless.com/). All the resources are defined in `serverless.yml` file and then deploy to AWS.
 
